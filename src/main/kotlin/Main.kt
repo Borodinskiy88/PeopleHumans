@@ -1,3 +1,4 @@
+package ru.netology
 fun main() {
     val likes = 8
     val message = if (likes % 10 == 1 && likes % 100 != 11) {
