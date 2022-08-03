@@ -1,6 +1,7 @@
 package ru.netology
+
 fun main() {
-    val likes = 8
+    val likes = 121
     val message = if (likes % 10 == 1 && likes % 100 != 11) {
         "Это понравилось $likes человеку!"
     } else if (likes == 0) {
